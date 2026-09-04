@@ -16,4 +16,4 @@ Next week, I am going to create the initial project structure and write some cod
 | 2.9  | 4 h            |
 | 4.9  | 6 h            |
 
-**week total: 15 h**
+**week total: 16 h**
