@@ -4,7 +4,7 @@ The language used in the both project documentation and code is English. The pro
 I can do peer review in both Finnish and Eglish languages and projects written in Python/R. 
 
 ## The topic of the project
-This is a project implementing a program that suggests correct spelling when given a user’s misspelled word in Finnish. I have chosen this topic and language specifically because I have studied Finnish for about 3.5 years and I still make some spelling mistakes when writing. I am also really fascinated by linguistics and NLP, so I decided to explore an algorithm that is widely used in these fields.
+This is a project implementing a program that suggests correct spelling when given a user’s misspelled word in Finnish.
 
 ### Implementation and the core of the project
 The application will mainly be used through a terminal interface. The user can enter a single Finnish word, either correctly or incorrectly written. The program will first check whether the word exists in the dictionary. If the word is found, the program will report that the spelling is correct. If the word is not found, the program will search for similar words in the dictionary and suggest the closest alternatives based on their similarities (distances). The initial version will only check dictionary forms of words such as the nominative form of nouns and the infinitive form of verbs etc.
