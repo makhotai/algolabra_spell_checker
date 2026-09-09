@@ -1,29 +1,21 @@
-node_count = 0 # for checking
-word_count = 0
-path_wl = "src/data/wordlist.txt"
-
-class Node:
+class TrieNode:
     def __init__(self):
         self.word = None
         self.children = {}
-        
-        global node_count
-        node_count += 1
-    
+
+class Trie:
+    def __init__(self):
+        self.root = TrieNode()
+
     def insert(self, word):
-        node = self
+        if not word:
+            raise ValueError("cannot insert an empty string into the trie")
+
+        node = self.root
         for letter in word:
             if letter not in node.children:
-                node.children[letter] = Node()
+                node.children[letter] = TrieNode()
 
             node = node.children[letter]
 
         node.word = word
-
-trie = Node()
-with open(path_wl, "r", encoding='UTF-8') as file:
-    for row in file:
-        trie.insert(row.strip())
-        word_count += 1
-
-print(f" {word_count} words, {node_count} nodes")
