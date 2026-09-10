@@ -45,12 +45,3 @@ def distance(word1: str, word2: str):
 
     return matrix[m][n]
 
-print("koira, koira", distance("koira", "koira")) # 0
-print("extra letter: kooira, koira", distance("kooira", "koira")) # 1
-print("missing letter: kora, koira", distance("kora", "koira")) # 1
-print("wrong letter: koora, koira", distance("koora", "koira")) # 1
-print("single transp.: kiora, koira", distance("kiora", "koira")) # 1
-print()
-print("abcd, acdb", distance("abcd", "acdb")) # 2
-print("abcd, dcba", distance("abcd", "dcba")) # 3
-print("abcd, qwert", distance("abcd", "qwert")) # 5
