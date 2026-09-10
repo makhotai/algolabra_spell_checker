@@ -1,4 +1,11 @@
 class TrieNode:
+    """class for single node of the trie
+    Args:
+            word: complete word spelled by the path from the root
+            children: maps a letter to the child ``TrieNode`` reached by that
+            letter
+            is_word: shows if there is a such word
+    """
     def __init__(self):
         self.word = None
         self.children = {}

@@ -1,10 +1,19 @@
-
 def distance(word1: str, word2: str):
+    """computes the minimum number (OSA distance) of single-character operations
+    to transform source word to and target word
+
+    Args:
+        word1 (str): source word
+        word2 (str): target word
+
+    Returns:
+        int: distance (differences) between two comparred words
+    """
     m = len(word1)
     n = len(word2)
-    
+
     matrix = []
-    for x in range(m+1):
+    for i in range(m+1):
         matrix.append([0]*(n+1))
 
     for i in range(m+1):
@@ -45,6 +54,3 @@ print()
 print("abcd, acdb", distance("abcd", "acdb")) # 2
 print("abcd, dcba", distance("abcd", "dcba")) # 3
 print("abcd, qwert", distance("abcd", "qwert")) # 5
-
-
-
