@@ -18,7 +18,7 @@ class Trie:
 
     def insert(self, word):
         if not word:
-            raise ValueError("cannot insert an empty string into the trie")
+            return
 
         node = self.root
         for char in word:
