@@ -11,27 +11,24 @@ class TestOsa(unittest.TestCase):
 
     def test_deletion_is_1(self):
         self.assertEqual(distance("koirra", "koira"), 1)
-        
+
     def test_substitution_is_1(self):
         self.assertEqual(distance("tavle", "table"), 1)
-    
+
     def test_transposition_is_1(self):
         self.assertEqual(distance("leisi", "liesi"), 1)
-        
+
     def test_n_operations_is_n(self):
         self.assertEqual(distance("valita", "valittaa"), 2)
         self.assertEqual(distance("kulma", "kylmä"), 2)
         self.assertEqual(distance("tuuli", "tule"), 2)
-    
+
     def test_complitely_different(self):
         word1 = "qwert"
         word2 = "zxcvb"
         n = max(len(word1), len(word2))
         self.assertEqual(distance(word1, word2), n)
-        
+
         word2 = "zxcvbnm"
         n = max(len(word1), len(word2))
         self.assertEqual(distance(word1, word2), n)
-        
-    
-        

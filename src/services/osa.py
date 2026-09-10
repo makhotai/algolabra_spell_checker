@@ -44,4 +44,3 @@ def distance(word1: str, word2: str):
                     matrix[i-2][j-2] + 1) #transposition
 
     return matrix[m][n]
-
