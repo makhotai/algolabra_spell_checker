@@ -31,7 +31,7 @@ class TestTrie(unittest.TestCase):
         wordlist = ["one", "two", "three", "four", "five", "six"]
         for i in range(n):
             trie_count.insert(wordlist[i])
-        self.assertEqual(trie_count._size, n)
+        self.assertEqual(len(trie_count), n)
 
     def test_cannot_insert_empty_string(self):
         empty_trie = Trie()
