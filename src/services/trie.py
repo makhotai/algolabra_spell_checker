@@ -25,6 +25,8 @@ class Trie:
         """
         if not word:
             return
+        if self.contains(word) is True:
+            return
 
         node = self.root
         for char in word:
