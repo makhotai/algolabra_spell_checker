@@ -22,6 +22,34 @@ class TestTrie(unittest.TestCase):
         self.assertFalse(self.trie.contains("aaa"))
         self.assertFalse(self.trie.contains("toinen"))
 
+    def test_prefix_of_word_not_itself_a_word(self):
+        trie_pref = Trie()
+        trie_pref.insert("abcde")
+        self.assertFalse(trie_pref.contains("a"))
+        self.assertFalse(trie_pref.contains("abcd"))
+        self.assertTrue(trie_pref.contains("abcde"))
+
+    def test_longer_word_not_found(self):
+        trie_long = Trie()
+        trie_long.insert("long")
+        self.assertFalse(trie_long.contains("longer"))
+        self.assertTrue(trie_long.contains("long"))
+
+    def test_same_prefix_words_stored_correctly(self):
+        trie_same = Trie()
+        trie_same.insert("cat")
+        trie_same.insert("car")
+        trie_same.insert("cart")
+        self.assertTrue(trie_same.contains("car"))
+        self.assertTrue(trie_same.contains("cart"))
+        self.assertTrue(trie_same.contains("car"))
+
+    def test_cannot_add_same_word_twice(self):
+        trie_double = Trie()
+        trie_double.insert("same")
+        trie_double.insert("same")
+        self.assertEqual(len(trie_double), 1)
+
     def test_trie_word_count_correct(self):
         trie_count = Trie()
         n = 4
