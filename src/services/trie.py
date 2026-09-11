@@ -65,7 +65,7 @@ class Trie:
         """
         node = self.find_node(word)
         return node is not None and node.is_word
-    
+
     def __len__(self):
         """returns a number of words contained in the trie"""
         return self._size
