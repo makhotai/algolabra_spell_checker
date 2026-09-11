@@ -1,6 +1,6 @@
 class TrieNode:
     """class for single node of the trie
-    Args:
+    Attributes:
             word: complete word spelled by the path from the root
             children: maps a letter to the child ``TrieNode`` reached by that
             letter
@@ -12,11 +12,17 @@ class TrieNode:
         self.is_word = False
 
 class Trie:
+    """a trie that stores a set of dictionary words"""
     def __init__(self):
         self.root = TrieNode()
         self._size = 0
 
-    def insert(self, word):
+    def insert(self, word: str):
+        """adds a word to the trie
+
+        Args:
+            word (str): a word (as non-empty string) to insert
+        """
         if not word:
             return
 
@@ -31,6 +37,15 @@ class Trie:
         node.word = word
 
     def find_node(self, prefix: str):
+        """searches 'prefix'/word in the trie
+
+        Args:
+            prefix (str): word to find
+
+        Returns:
+            bool: returns True if the word was previously inserted, 
+            otherwise returns False
+        """
         node = self.root
         for letter in prefix:
             node = node.children.get(letter)
@@ -39,5 +54,14 @@ class Trie:
         return node
 
     def contains(self, word: str):
+        """checks if dictionary contains the word
+
+        Args:
+            word (str): a word to find
+
+        Returns:
+            bool: returns True if the word was previously inserted, 
+            otherwise returns False
+        """
         node = self.find_node(word)
         return node is not None and node.is_word
