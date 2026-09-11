@@ -4,7 +4,7 @@ path_wl = "src/data/wordlist.txt"
 
 class Vocabulary:
     """uses Trie-data structure as a base to generate
-    a vocabulary for spell checker programm
+    a vocabulary for spell-checker programm
     """
     def __init__(self, trie=Trie(), path_wl=path_wl):
         self.trie = trie
