@@ -26,8 +26,7 @@ class Trie:
                 node.children[char] = TrieNode()
             node = node.children[char]
 
-        if not node.is_word:
-            self._size += 1
+        self._size += 1
         node.is_word = True
         node.word = word
 
