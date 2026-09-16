@@ -57,14 +57,16 @@ class Trie:
 
     def list_generator(self, node: TrieNode):
         words = []
+        
         if node.is_word:
             words.append(node.word)
+
         for ch in node.children: 
             words.extend(self.list_generator(node.children[ch]))
         return words
 
     def words(self):
-        return self.list_generator(self.root)
+        return sorted(self.list_generator(self.root))
 
     def contains(self, word: str):
         """checks if dictionary contains the word
