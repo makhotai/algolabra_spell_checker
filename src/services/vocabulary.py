@@ -8,8 +8,7 @@ class SpellChecker:
     a vocabulary and OSA distance function for spell-checker program
     """
     def __init__(self, trie=None, path_wl=path_wl):
-        if trie is None:
-            trie = Trie()
+        trie = Trie()
         self.trie = trie
         self.path_wl = path_wl
 
@@ -48,11 +47,8 @@ class SpellChecker:
         """suggest possible correct spelling of words based on their OSA distance"""
         max_distance = 2
         top_k = 5
-
-        if not word:
-            return None
-
         results = []
+
         for pair in self.trie.words():
             res = distance(word, pair)
             if res <= max_distance:
