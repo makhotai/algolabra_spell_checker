@@ -20,13 +20,31 @@ class SpellChecker:
                 self.trie.insert(row.strip())
 
     def add(self, word: str):
-        self.trie.insert(word.strip())
+        return self.trie.insert(word.strip())
 
     def is_correct(self, word: str):
             return self.trie.contains(word)
 
     def words(self):
             return self.trie.words()
+
+    def suggest_similar(self, word: str):
+        max_distance = 2
+        top_k = 5
+
+        if not word:
+            return
+
+        results = []
+        for pair in self.trie.words():
+            res = distance(word, pair)
+            if res <= max_distance:
+                results.append((pair, res))
+
+        results.sort(key=lambda pair: pair[1])
+
+        results = results[:top_k]
+        return results
 
     def __len__(self):
         return len(self.trie)
