@@ -13,7 +13,7 @@ class SpellChecker:
         self.trie = trie
         self.path_wl = path_wl
 
-    def compile_from_wl(self):
+    def load_from_file(self):
         """loads words from wordlist.txt into the vocabulary"""
         with open(self.path_wl, "r", encoding='UTF-8') as file:
             for row in file:
@@ -24,14 +24,15 @@ class SpellChecker:
         return self.trie.insert(word.strip())
 
     def add_to_file(self, word: str):
+        """inserts a word to the both txt file and vocabulary"""
         if not word:
-            return False
+            return None
 
         word = word.strip().lower()
         if self.is_correct(word) is False:
             self.trie.insert(word)
             with open(self.path_wl, mode="a", encoding='UTF-8') as file:
-                file.write(word + "\n")
+                file.write("\n" + word)
             return True
         return False
 
@@ -49,7 +50,7 @@ class SpellChecker:
         top_k = 5
 
         if not word:
-            return
+            return None
 
         results = []
         for pair in self.trie.words():
