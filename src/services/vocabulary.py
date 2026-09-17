@@ -1,7 +1,7 @@
 from services.trie import Trie
 from services.osa import distance
 
-path_wl = "src/data/wordlist.txt"
+path_wl = "src/data/small_wordlist.txt"
 
 class SpellChecker:
     """uses a Trie data structure as a base to generate
@@ -22,6 +22,18 @@ class SpellChecker:
     def add(self, word: str):
         """adds a word to the vocabulary used by the spell checker"""
         return self.trie.insert(word.strip())
+
+    def add_to_file(self, word: str):
+        if not word:
+            return False
+
+        word = word.strip().lower()
+        if self.is_correct(word) is False:
+            self.trie.insert(word)
+            with open(self.path_wl, mode="a", encoding='UTF-8') as file:
+                file.write(word + "\n")
+            return True
+        return False
 
     def is_correct(self, word: str):
         """checks whether a word is present in the vocabulary"""
