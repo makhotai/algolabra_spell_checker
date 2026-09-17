@@ -59,7 +59,24 @@ class UI:
         print(f"'{word}' was successfully added to the vocabulary \n")
 
     def check_word(self):
-        pass
+        word = input("\nenter a word to check: ").strip().lower()
+
+        if not word:
+            print("you cannot check spelling of empty string, sorry\n")
+            return
+
+        if self.sp.is_correct(word):
+            print(f"'{word}' is spelled correctly :)\n")
+            return
+
+        suggestions = self.sp.suggest_similar(word)
+        if not suggestions:
+            print(f"ops, there are not spelling suggestions for '{word}'\n")
+
+        print(f"possible suggetion(s) for '{word}': ")
+        for pair in suggestions:
+            print(pair)
+        print()
 
     def quit(self):
         print("\n bye! :) \n")
