@@ -4,8 +4,8 @@ from services.osa import distance
 path_wl = "src/data/wordlist.txt"
 
 class SpellChecker:
-    """uses Trie-data structure as a base to generate
-    a vocabulary for spell-checker programm
+    """uses a Trie data structure as a base to generate
+    a vocabulary and OSA distance function for spell-checker program
     """
     def __init__(self, trie=None, path_wl=path_wl):
         if trie is None:
@@ -14,21 +14,25 @@ class SpellChecker:
         self.path_wl = path_wl
 
     def compile_from_wl(self):
-        """generates a ready-to-use vocabulary from wordlist.txt"""
+        """loads words from wordlist.txt into the vocabulary"""
         with open(self.path_wl, "r", encoding='UTF-8') as file:
             for row in file:
                 self.trie.insert(row.strip())
 
     def add(self, word: str):
+        """adds a word to the vocabulary used by the spell checker"""
         return self.trie.insert(word.strip())
 
     def is_correct(self, word: str):
-            return self.trie.contains(word)
+        """checks whether a word is present in the vocabulary"""
+        return self.trie.contains(word)
 
     def words(self):
-            return self.trie.words()
+        """returns a list of all words contained in the vocabulary"""
+        return self.trie.words()
 
     def suggest_similar(self, word: str):
+        """suggest possible correct spelling of words based on their OSA distance"""
         max_distance = 2
         top_k = 5
 
