@@ -1,5 +1,5 @@
 import sys
-from vocabulary import SpellChecker
+from services.vocabulary import SpellChecker
 
 class UI:
     def __init__(self):
