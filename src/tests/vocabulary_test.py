@@ -53,12 +53,15 @@ class TestSpellCheckerWithFiles(unittest.TestCase):
         with open("src/data/test_wordlist.txt", "w", encoding='UTF-8') as file:
             file.writelines(lines)
 
+    def test_non_none_trie(self):
+        self.non_none_voc = SpellChecker(trie=Trie())
+
     def setUp(self):
         self.voc_file = SpellChecker(path_wl="src/data/test_wordlist.txt")
 
     def test_empty_vocabulary(self):
         self.assertEqual(len(self.voc_file), 0)
-
+    
     def test_load_from_file(self):
         self.voc_file.load_from_file()
         self.assertEqual(len(self.voc_file), 5)
@@ -73,3 +76,13 @@ class TestSpellCheckerWithFiles(unittest.TestCase):
         self.assertEqual(self.voc_file.words(), ["kirja", "kirje", "kissa", "koira", "omena", "test"])
         self.erase_last()
 
+    def test_cannot_add_empty_str_to_file(self):
+        self.voc_file.load_from_file()
+        self.assertIsNone(self.voc_file.add_to_file(""))
+
+    def test_cannot_add_same_word_twice(self):
+        self.voc_file.load_from_file()
+        self.assertTrue(self.voc_file.add_to_file("new"))
+        self.assertFalse(self.voc_file.add_to_file("new"))
+        self.assertEqual(self.voc_file.words(), ["kirja", "kirje", "kissa", "koira", "new", "omena"])
+        self.erase_last()

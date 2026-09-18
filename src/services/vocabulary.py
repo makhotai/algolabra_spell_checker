@@ -8,7 +8,8 @@ class SpellChecker:
     a vocabulary and OSA distance function for spell-checker program
     """
     def __init__(self, trie=None, path_wl=path_wl):
-        trie = Trie()
+        if trie is None:
+            trie = Trie()
         self.trie = trie
         self.path_wl = path_wl
 
@@ -30,8 +31,8 @@ class SpellChecker:
         word = word.strip().lower()
         if self.is_correct(word) is False:
             self.trie.insert(word)
-            with open(self.path_wl, mode="a", encoding='UTF-8') as file:
-                file.write("\n" + word)
+            with open(self.path_wl, "a", encoding='UTF-8') as file:
+                file.write(word + "\n")
             return True
         return False
 
