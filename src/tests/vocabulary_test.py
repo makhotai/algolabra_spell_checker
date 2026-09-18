@@ -1,5 +1,6 @@
 import unittest
 from services.vocabulary import SpellChecker
+from services.trie import Trie
 
 class TestSpellChecker(unittest.TestCase):
     def setUp(self):
@@ -45,12 +46,30 @@ class TestSpellChecker(unittest.TestCase):
         self.assertEqual(suggestions[0], ("kissa", 1))
 
 class TestSpellCheckerWithFiles(unittest.TestCase):
+    def erase_last(self):
+        with open("src/data/test_wordlist.txt", "r", encoding='UTF-8') as file:
+            lines = file.readlines()
+            lines = lines[:-1]
+        with open("src/data/test_wordlist.txt", "w", encoding='UTF-8') as file:
+            file.writelines(lines)
+
     def setUp(self):
         self.voc_file = SpellChecker(path_wl="src/data/test_wordlist.txt")
 
     def test_empty_vocabulary(self):
         self.assertEqual(len(self.voc_file), 0)
-    
+
     def test_load_from_file(self):
         self.voc_file.load_from_file()
         self.assertEqual(len(self.voc_file), 5)
+
+    def test_words_foreach(self):
+        self.voc_file.load_from_file()
+        self.assertEqual(self.voc_file.words(), ["kirja", "kirje", "kissa", "koira", "omena"])
+
+    def test_add_to_file(self):
+        self.voc_file.load_from_file()
+        self.voc_file.add_to_file("test")
+        self.assertEqual(self.voc_file.words(), ["kirja", "kirje", "kissa", "koira", "omena", "test"])
+        self.erase_last()
+
