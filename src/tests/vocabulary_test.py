@@ -43,3 +43,14 @@ class TestSpellChecker(unittest.TestCase):
     def test_single_adjacent_transposition_corrected(self):
         suggestions = self.voc.suggest_similar("kisas")
         self.assertEqual(suggestions[0], ("kissa", 1))
+
+class TestSpellCheckerWithFiles(unittest.TestCase):
+    def setUp(self):
+        self.voc_file = SpellChecker(path_wl="src/data/test_wordlist.txt")
+
+    def test_empty_vocabulary(self):
+        self.assertEqual(len(self.voc_file), 0)
+    
+    def test_load_from_file(self):
+        self.voc_file.load_from_file()
+        self.assertEqual(len(self.voc_file), 5)
