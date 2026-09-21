@@ -1,5 +1,7 @@
+import hypothesis.strategies as st
+from hypothesis import given, settings
 import unittest
-from services.trie import TrieNode, Trie
+from services.trie import Trie
 
 class TestTrie(unittest.TestCase):
     def setUp(self):
@@ -65,3 +67,10 @@ class TestTrie(unittest.TestCase):
         empty_trie = Trie()
         empty_trie.insert("")
         self.assertEqual(empty_trie._size, 0)
+
+    @given(val=st.text(alphabet= st.characters(codec="utf-8"), min_size=2, max_size=70))
+    @settings(max_examples=1000)
+    def test_all_possible_str_inserted_hypothesis(self, val):
+        all_str = Trie()
+        all_str.insert(val)
+        self.assertTrue(all_str.contains(val))
