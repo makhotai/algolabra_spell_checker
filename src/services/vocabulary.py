@@ -44,6 +44,16 @@ class SpellChecker:
         """returns a list of all words contained in the vocabulary"""
         return self.trie.words()
 
+    def prefix_search(self, prefix: str):
+        """returns a list of words starting with 'prefix'"""
+        prefix = prefix.strip().lower()
+        node = self.trie.find_node(prefix)
+        if node is None or not prefix:
+            return []
+        res = self.trie.list_generator(node)
+        res.sort()
+        return res
+
     def suggest_similar(self, word: str):
         """suggest possible correct spelling of words based on their OSA distance"""
         max_distance = 2
