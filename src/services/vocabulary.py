@@ -1,13 +1,13 @@
 from services.trie import Trie
 from services.osa import distance
 
-path_wl = "src/data/small_wordlist.txt"
+PATH_WL = "src/data/small_wordlist.txt"
 
 class SpellChecker:
     """uses a Trie data structure as a base to generate
     a vocabulary and OSA distance function for spell-checker program
     """
-    def __init__(self, trie=None, path_wl=path_wl):
+    def __init__(self, trie=None, path_wl=PATH_WL):
         if trie is None:
             trie = Trie()
         self.trie = trie

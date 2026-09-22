@@ -2,6 +2,7 @@ import sys
 from services.vocabulary import SpellChecker
 
 class UI:
+    """constructor of a basic UI for spell-checker working via interface"""
     def __init__(self):
         self.sp = SpellChecker()
         self.sp.load_from_file()

@@ -26,3 +26,5 @@ talo
 tietokone
 tuoli
 ystävä
+guga
+da

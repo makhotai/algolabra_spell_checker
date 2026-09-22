@@ -1,6 +1,6 @@
+import unittest
 import hypothesis.strategies as st
 from hypothesis import given, settings
-import unittest
 
 from services.vocabulary import SpellChecker
 from services.trie import Trie
@@ -64,7 +64,7 @@ class TestSpellCheckerWithFiles(unittest.TestCase):
 
     def test_empty_vocabulary(self):
         self.assertEqual(len(self.voc_file), 0)
-    
+
     def test_load_from_file(self):
         self.voc_file.load_from_file()
         self.assertEqual(len(self.voc_file), 5)
@@ -76,7 +76,8 @@ class TestSpellCheckerWithFiles(unittest.TestCase):
     def test_add_to_file(self):
         self.voc_file.load_from_file()
         self.voc_file.add_to_file("test")
-        self.assertEqual(self.voc_file.words(), ["kirja", "kirje", "kissa", "koira", "omena", "test"])
+        self.assertEqual(self.voc_file.words(),
+                         ["kirja", "kirje", "kissa", "koira", "omena", "test"])
         self.erase_last()
 
     def test_cannot_add_empty_str_to_file(self):
@@ -87,10 +88,11 @@ class TestSpellCheckerWithFiles(unittest.TestCase):
         self.voc_file.load_from_file()
         self.assertTrue(self.voc_file.add_to_file("new"))
         self.assertFalse(self.voc_file.add_to_file("new"))
-        self.assertEqual(self.voc_file.words(), ["kirja", "kirje", "kissa", "koira", "new", "omena"])
+        self.assertEqual(self.voc_file.words(),
+                         ["kirja", "kirje", "kissa", "koira", "new", "omena"])
         self.erase_last()
 
-class TestSpellCheckerWithHypothesis(unittest.TestCase):        
+class TestSpellCheckerWithHypothesis(unittest.TestCase):
     def create_txt(self):
         with open("src/data/test_hyp.txt", "w", encoding="utf-8") as file:
             file.write("")

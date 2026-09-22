@@ -1,6 +1,7 @@
+import unittest
 import hypothesis.strategies as st
 from hypothesis import given, settings
-import unittest
+
 from services.osa import distance
 
 class TestOsa(unittest.TestCase):
@@ -41,7 +42,7 @@ class TestOsa(unittest.TestCase):
     def test_distance_for_same_long_words_hypothesis(self, val):
         self.assertEqual(distance(val, val), 0)
 
-    @given(val1=st.text(alphabet= st.characters(codec="utf-8"), 
+    @given(val1=st.text(alphabet= st.characters(codec="utf-8"),
                         min_size=3, max_size=40),
            val2=st.text(alphabet= st.characters(codec="utf-8"),
                         min_size=3, max_size=40))
