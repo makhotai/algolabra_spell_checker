@@ -1,6 +1,7 @@
 import hypothesis.strategies as st
 from hypothesis import given, settings
 import unittest
+
 from services.vocabulary import SpellChecker
 from services.trie import Trie
 
@@ -89,20 +90,20 @@ class TestSpellCheckerWithFiles(unittest.TestCase):
         self.assertEqual(self.voc_file.words(), ["kirja", "kirje", "kissa", "koira", "new", "omena"])
         self.erase_last()
 
-class TestSpellCheckerWithHypothesis(unittest.TestCase):
-    def erase_all(self):
-        lines = []
-        with open("src/data/ok.txt", "w", encoding='UTF-8') as file:
-            file.writelines(lines)
+class TestSpellCheckerWithHypothesis(unittest.TestCase):        
+    def create_txt(self):
+        with open("src/data/test_hyp.txt", "w", encoding="utf-8") as file:
+            file.write("")
 
     def setUp(self):
-        self.voc_hyp = SpellChecker(path_wl="src/data/ok.txt")
-    
-    @given(val=st.text(alphabet=st.characters(whitelist_categories=("Ll", "Lu")), min_size=10, max_size=30))
-    @settings(max_examples=10)
+        self.create_txt()
+        self.voc_hyp = SpellChecker(path_wl="src/data/test_hyp.txt")
+
+    @given(val=st.text(alphabet=st.characters(whitelist_categories=("Ll", "Lu")),
+                       min_size=10, max_size=30))
+    @settings(max_examples=1000)
     def test_all_str_inserted_as_lowercase_hypothesis(self, val):
         self.voc_hyp.load_from_file()
         self.voc_hyp.add_to_file(val)
         val = val.strip().lower()
         self.assertTrue(self.voc_hyp.is_correct(val))
-        self.erase_all()

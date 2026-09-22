@@ -81,7 +81,3 @@ class UI:
     def quit(self):
         print("\n bye! :) \n")
         sys.exit()
-
-if __name__ == "__main__":
-    ui = UI()
-    ui.start()
