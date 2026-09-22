@@ -8,9 +8,10 @@ class UI:
         self.sp.load_from_file()
 
     def start(self):
+        print("hello, it is spell-checker program")
         while True:
             self.menu()
-            option = input("(1-4): ")
+            option = input("(1-5): ")
             print()
 
             if option == "1":
@@ -20,9 +21,12 @@ class UI:
                 self.add_new()
 
             elif option == "3":
-                self.check_word()
+                self.find_prefix()
 
             elif option == "4":
+                self.check_word()
+
+            elif option == "5":
                 self.quit()
 
             else:
@@ -34,8 +38,9 @@ class UI:
         print()
         print("1 - print vocabulary")
         print("2 - add new word to vocabulary")
-        print("3 - check word spelling")
-        print("4 - quit")
+        print("3 - search word based on its prefix")
+        print("4 - check word spelling")
+        print("5 - quit")
         print()
 
     def print_voc(self):
@@ -58,6 +63,22 @@ class UI:
 
         self.sp.add_to_file(word)
         print(f"'{word}' was successfully added to the vocabulary \n")
+
+    def find_prefix(self):
+        prefix = input("\nenter a prefix of word to find the words: ").strip().lower()
+
+        if not prefix:
+            print("you cannot find words starting with empty string, sorry\n")
+            return
+        res = self.sp.prefix_search(prefix)
+
+        if not res:
+            print(f"no words starting with '{prefix}' found :(\n")
+            return
+
+        for word in res:
+            print(word)
+        print()
 
     def check_word(self):
         word = input("\nenter a word to check: ").strip().lower()
