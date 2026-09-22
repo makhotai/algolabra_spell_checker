@@ -25,6 +25,10 @@ class TestSpellChecker(unittest.TestCase):
         self.assertFalse(self.voc.is_correct("kisa"))
         self.assertFalse(self.voc.is_correct("oomena"))
 
+    def test_prefix_search_finds_words(self):
+        self.assertEqual(self.voc.prefix_search("k"), ["kirja", "kirje", "kissa", "koira"])
+        self.assertEqual(self.voc.prefix_search("kir"), ["kirja", "kirje"])
+
     def test_word_count_correct(self):
         voc_count = SpellChecker()
         n = 4

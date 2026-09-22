@@ -48,8 +48,6 @@ class SpellChecker:
         """returns a list of words starting with 'prefix'"""
         prefix = prefix.strip().lower()
         node = self.trie.find_node(prefix)
-        if node is None or not prefix:
-            return []
         res = self.trie.list_generator(node)
         res.sort()
         return res
