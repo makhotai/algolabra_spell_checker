@@ -21,6 +21,9 @@ class TestOsa(unittest.TestCase):
     def test_transposition_is_1(self):
         self.assertEqual(distance("leisi", "liesi"), 1)
 
+    def test_no_adjacent_transpositions(self):
+        self.assertEqual(distance("ca", "abc"), 3)
+
     def test_n_operations_is_n(self):
         self.assertEqual(distance("valita", "valittaa"), 2)
         self.assertEqual(distance("kulma", "kylmä"), 2)
