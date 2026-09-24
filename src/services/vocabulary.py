@@ -2,13 +2,14 @@ from services.trie import Trie
 from services.damerau_levenshtein import distance_full
 from services.osa import distance
 
-PATH_WL = "src/data/small_wordlist.txt"
+PATH_WL_TEST = "src/data/small_wordlist.txt"
+PATH_WL = "src/data/wordlist.txt"
 
 class SpellChecker:
     """uses a Trie data structure as a base to generate
     a vocabulary and OSA distance function for spell-checker program
     """
-    def __init__(self, trie=None, path_wl=PATH_WL):
+    def __init__(self, trie=None, path_wl=PATH_WL_TEST):
         if trie is None:
             trie = Trie()
         self.trie = trie
@@ -66,7 +67,7 @@ class SpellChecker:
         based on their Damerau-Levenshtein distance distance
         """
         max_distance = 2
-        top_k = 5
+        top_k = 7
         results = []
 
         for pair in self.trie.words():
