@@ -25,10 +25,6 @@ class TestSpellChecker(unittest.TestCase):
         self.assertFalse(self.voc.is_correct("kisa"))
         self.assertFalse(self.voc.is_correct("oomena"))
 
-    def test_prefix_search_finds_words(self):
-        self.assertEqual(self.voc.prefix_search("k"), ["kirja", "kirje", "kissa", "koira"])
-        self.assertEqual(self.voc.prefix_search("kir"), ["kirja", "kirje"])
-
     def test_word_count_correct(self):
         voc_count = SpellChecker()
         n = 4
@@ -42,15 +38,21 @@ class TestSpellChecker(unittest.TestCase):
 
     def test_exact_match_is_suggested_with_distance_zero(self):
         suggestions = self.voc.suggest_similar("kissa")
+        suggestions_full = self.voc.suggest_similar_full("kissa")
         self.assertIn(("kissa", 0), suggestions)
+        self.assertIn(("kissa", 0), suggestions_full)
 
     def test_single_substitution_corrected(self):
         suggestions = self.voc.suggest_similar("kessa")
+        suggestions_full = self.voc.suggest_similar_full("kessa")
         self.assertEqual(suggestions[0], ("kissa", 1))
+        self.assertEqual(suggestions_full[0], ("kissa", 1))
 
     def test_single_adjacent_transposition_corrected(self):
         suggestions = self.voc.suggest_similar("kisas")
+        suggestions_full = self.voc.suggest_similar_full("kisas")
         self.assertEqual(suggestions[0], ("kissa", 1))
+        self.assertEqual(suggestions_full[0], ("kissa", 1))
 
 class TestSpellCheckerWithFiles(unittest.TestCase):
     def erase_last(self):

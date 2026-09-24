@@ -1,6 +1,7 @@
+import unittest
 import hypothesis.strategies as st
 from hypothesis import given, settings
-import unittest
+
 from services.trie import Trie
 
 class TestTrie(unittest.TestCase):

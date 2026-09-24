@@ -1,6 +1,6 @@
 def distance_full(word1: str, word2: str):
-    """computes the minimum number (true Damerau-Levenshtein distance) of single-character operations
-    to transform source word to and target word
+    """computes the minimum number (true Damerau-Levenshtein distance) of single-character 
+    operations to transform source word to and target word
 
     Args:
         word1 (str): source word
