@@ -1,5 +1,5 @@
 import sys
-from services.vocabulary import SpellChecker
+from services.spell_checker import SpellChecker
 
 class UI:
     """constructor of a basic UI for spell-checker working via interface"""

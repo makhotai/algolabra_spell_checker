@@ -1,4 +1,4 @@
-# Weekly report
+# Weekly report 3
 This week I mostly focused on developing tests and implementing the spell checker and its possible UI/functionality as classes, so that the user could use it through the terminal.
 
 There was a little misunderstanding. I received feedback from the curator that I needed to implement a generator in the Trie class for looping through the words when calculating the distance between them. I googled some information about generators in Python and, based on the search results, I thought that I needed to make a for word in words loop that would "yield" each word back as a generator object instead of commonly returning them. After contacting the curator and receiving clarification, I simply made a loop in the Trie and combined it with the distance calculation in the SpellChecker's `suggest_similar()`.

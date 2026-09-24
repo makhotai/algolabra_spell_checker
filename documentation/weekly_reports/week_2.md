@@ -1,4 +1,4 @@
-# Weekly report
+# Weekly report 2
 This week I started coding and thinking about the structure of my project. I wrote the initial code for OSA and Trie. I have not written the full OSA class with all the necessary methods yet, but it already calculates the distance between strings correctly. Therefore, I am planning to finish and properly structure the OSA implementation next week.
 
 Mostly this week development was focused on Trie data-structure code (word insertion and search).I decided to make a separate script for the vocabulary that will be used by the program and generated from `wordlist.txt`. I would like to implenet feature that allows user to add a word to `wordlist.txt` in alpabeth order so the word would be saved and used later.

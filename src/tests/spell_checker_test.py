@@ -2,7 +2,7 @@ import unittest
 import hypothesis.strategies as st
 from hypothesis import given, settings
 
-from services.vocabulary import SpellChecker
+from services.spell_checker import SpellChecker
 from services.trie import Trie
 
 class TestSpellChecker(unittest.TestCase):
