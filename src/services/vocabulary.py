@@ -1,4 +1,5 @@
 from services.trie import Trie
+from services.damerau_levenshtein import distance_full
 from services.osa import distance
 
 PATH_WL = "src/data/small_wordlist.txt"
@@ -44,14 +45,6 @@ class SpellChecker:
         """returns a list of all words contained in the vocabulary"""
         return self.trie.words()
 
-    def prefix_search(self, prefix: str):
-        """returns a list of words starting with 'prefix'"""
-        prefix = prefix.strip().lower()
-        node = self.trie.find_node(prefix)
-        res = self.trie.list_generator(node)
-        res.sort()
-        return res
-
     def suggest_similar(self, word: str):
         """suggest possible correct spelling of words based on their OSA distance"""
         max_distance = 2
@@ -60,6 +53,24 @@ class SpellChecker:
 
         for pair in self.trie.words():
             res = distance(word, pair)
+            if res <= max_distance:
+                results.append((pair, res))
+
+        results.sort(key=lambda pair: pair[1])
+
+        results = results[:top_k]
+        return results
+
+    def suggest_similar_full(self, word: str):
+        """suggest possible correct spelling of words 
+        based on their Damerau-Levenshtein distance distance
+        """
+        max_distance = 2
+        top_k = 5
+        results = []
+
+        for pair in self.trie.words():
+            res = distance_full(word, pair)
             if res <= max_distance:
                 results.append((pair, res))
 

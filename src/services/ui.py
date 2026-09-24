@@ -11,7 +11,7 @@ class UI:
         print("hello, it is spell-checker program")
         while True:
             self.menu()
-            option = input("(1-5): ")
+            option = input("(1-4): ")
             print()
 
             if option == "1":
@@ -21,12 +21,9 @@ class UI:
                 self.add_new()
 
             elif option == "3":
-                self.find_prefix()
-
-            elif option == "4":
                 self.check_word()
 
-            elif option == "5":
+            elif option == "4":
                 self.quit()
 
             else:
@@ -38,9 +35,8 @@ class UI:
         print()
         print("1 - print vocabulary")
         print("2 - add new word to vocabulary")
-        print("3 - search word based on its prefix")
-        print("4 - check word spelling")
-        print("5 - quit")
+        print("3 - check word spelling")
+        print("4 - quit")
         print()
 
     def print_voc(self):
@@ -48,6 +44,7 @@ class UI:
 
         for word in self.sp.words():
             print(word)
+        input("\npress enter to proceed")
         print()
 
     def add_new(self):
@@ -55,49 +52,40 @@ class UI:
 
         if not word:
             print("you cannot add empty string to vocabulary, sorry\n")
+            input("press enter to proceed\n")
             return
 
         if self.sp.is_correct(word):
             print(f"the word '{word}' is already in the vocabulary..\n")
+            input("press enter to proceed\n")
             return
 
         self.sp.add_to_file(word)
         print(f"'{word}' was successfully added to the vocabulary \n")
-
-    def find_prefix(self):
-        prefix = input("\nenter a prefix of word to find the words: ").strip().lower()
-
-        if not prefix:
-            print("you cannot find words starting with empty string, sorry\n")
-            return
-        res = self.sp.prefix_search(prefix)
-
-        if not res:
-            print(f"no words starting with '{prefix}' found :(\n")
-            return
-
-        for word in res:
-            print(word)
-        print()
 
     def check_word(self):
         word = input("\nenter a word to check: ").strip().lower()
 
         if not word:
             print("you cannot check spelling of empty string, sorry\n")
+            input("press enter to proceed\n")
             return
 
         if self.sp.is_correct(word):
             print(f"'{word}' is spelled correctly :)\n")
+            input("press enter to proceed\n")
             return
 
-        suggestions = self.sp.suggest_similar(word)
+        suggestions = self.sp.suggest_similar_full(word)
         if not suggestions:
-            print(f"ops, there are not spelling suggestions for '{word}'\n")
+            print(f"oops, there are not spelling suggestions for '{word}'\n")
+            input("press enter to proceed\n")
+            return
 
         print(f"possible suggetion(s) for '{word}': ")
         for pair in suggestions:
             print(pair)
+        input("\npress enter to proceed")
         print()
 
     def quit(self):
