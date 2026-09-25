@@ -4,7 +4,7 @@
 
 ### Coverage report:
 
-<img width="1029" height="467" alt="Image" src="https://github.com/user-attachments/assets/566bbc87-b47d-4527-ab48-c81dd30326be" />
+<img width="941" height="484" alt="Image" src="https://github.com/user-attachments/assets/5f154260-cc9d-46c4-8371-22473771aa92" />
 
 ### Optimal string alignment and full Damerau-Levenshtein testing
 
