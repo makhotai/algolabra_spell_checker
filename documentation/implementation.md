@@ -152,6 +152,8 @@ Lastly, Finnish words usually have several inflected forms(e.g. different cases 
 
 * **ChatGPT (v5?) Think-mode** At first week of the course I used ChatGPT to explore possible project ideas in addition to those were suggested in the course. However, I was satisfied with its suggestions. I also asked for ideas about different mechanisms, features, and libraries that could be implemented to make the spell-checker more interesting. I decided not to implement most of those in my project since I was not sure about difficulty of my project (except implementing unrestricted variant of DL distance in addition to OSA).
 
+* **ChatGPT-5/Gemini** Writing the pseudocode left me confused (especially for the unrestricted Damerau-Levenshtein distance). I did not want to copy/paste a version from Wikipedia or use my own python code for that purpose, since it might look too complicated. I decided to experiment with both the free versions of ChatGPT-5 and Gemini and asked them to suggest easy-to-understand pseudocode based on my own code. The result did not really look like traditional pseudocode, but the logic and main operations were depicted correctly, so I used some of their output in my `implementation.md`.
+
 
 ## Sources
 
