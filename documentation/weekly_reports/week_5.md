@@ -23,6 +23,6 @@ Anyways, I understand that this course does not require such deep testing and op
 | 30.9  | 3 h            |
 | 1.10  | 4 h            |
 | 2.10  | 1 h            |
-| 3.10  | 2 h            |
+| 3.10  | 1 h            |
 
-**week total: 10 h**
+**week total: 9 h**
