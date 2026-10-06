@@ -55,30 +55,53 @@ class SpellChecker:
         for pair in self.trie.words():
             res = distance(word, pair)
             if res <= max_distance:
-                results.append((pair, res))
+                prefix_length = self.same_prefix(word, pair)
+                results.append((pair, res, prefix_length))
 
         results.sort(key=lambda pair: pair[1])
-
+        
+        results.sort(key=lambda pair: (pair[1], -pair[2], pair[0]))
+        
         results = results[:top_k]
-        return results
+        sug = []
+        for pair in results:
+            sug.append((pair[0], pair[1]))
+        return sug
 
     def suggest_similar_full(self, word: str):
         """suggest possible correct spelling of words 
         based on their Damerau-Levenshtein distance distance
         """
         max_distance = 2
-        top_k = 7
+        top_k = 5
         results = []
 
         for pair in self.trie.words():
             res = distance_full(word, pair)
-            if res <= max_distance:
-                results.append((pair, res))
 
-        results.sort(key=lambda pair: pair[1])
+            if res <= max_distance:
+                prefix_length = self.same_prefix(word, pair)
+                results.append((pair, res, prefix_length))
+
+        results.sort(key=lambda pair: (pair[1], -pair[2], pair[0]))
 
         results = results[:top_k]
-        return results
+        sug = []
+        for pair in results:
+            sug.append((pair[0], pair[1]))
+        return sug
+
+    def same_prefix(self, word1: str, word2: str):
+        count = 0
+        m = len(word1)
+        n = len(word2)
+
+        for i in range(min(m, n)):
+            if word1[i] != word2[i]:
+                break
+            count += 1
+
+        return count
 
     def __len__(self):
         return len(self.trie)
