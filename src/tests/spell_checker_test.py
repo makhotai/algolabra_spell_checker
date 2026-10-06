@@ -36,6 +36,11 @@ class TestSpellChecker(unittest.TestCase):
             voc_count.add(wordlist[i])
         self.assertEqual(len(voc_count), n)
 
+    def test_same_prefix(self):
+        self.assertEqual(self.voc.same_prefix("kissa", "kirja"), 2)
+        self.assertEqual(self.voc.same_prefix("kissa", "koira"), 1)
+        self.assertEqual(self.voc.same_prefix("kirja", "kirje"), 4)
+
     def test_exact_match_is_suggested_with_distance_zero(self):
         suggestions = self.voc.suggest_similar("kissa")
         suggestions_full = self.voc.suggest_similar_full("kissa")
