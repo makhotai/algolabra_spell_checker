@@ -43,6 +43,7 @@ For the spell checker, I tested the functionality that combines the Trie and OSA
 * a new word can be added
 * an empty string cannot be added
 * the same word cannot be added twice
+* suggestions sorting order
 
 I also tested the file functionality with a small test word list to check if vocabulary is loaded correctly and that adding a word does not create duplicates.
 
@@ -72,4 +73,33 @@ If you want to check the coverage of code and receive visual report you can run:
 or `coverage run --branch -m pytest src; coverage html`
 
 ## Empirical testing
-**TBA**
+
+I tested how often the program suggested the correct spelling for a misspelled word. Unfortunately, I could not find a suitable and sufficiently large dataset in Finnish for this purpose. Therefore I used [this list of commonly misspelled words in English](https://en.wikipedia.org/wiki/Commonly_misspelled_English_words) and [this words.txt](https://github.com/dwyl/english-words/blob/master/words.txt) as the basis for the vocabulary. The first list contains misspelled words and their intended correct spellings.
+
+The results were quite predictable.
+
+The dataset contained 257 misspelled words. In 213 cases (~83%), the intended spelling was suggested in first place.
+
+In 35 cases (~13.6%), the program found the intended word but did not rank it first. For example, for the misspelling 'libary', the intended word 'library' had a distance of 1. However, the suggestions were:
+```
+  libard (distance: 1)
+  library (distance: 1)
+```
+or for 'collegue' and 'colleague', distance is 1 
+```
+  college (distance: 1)
+  colleague (distance: 1)
+```
+
+Words with an edit distance more than 2 were not suggested because the max allowed edit distance was 2, e.g. 'defiantly' and 'definitely', distance is 3. 
+
+Only in 8 cases (~3%) the intended correct spelling was not included in the list of suggestions. Mostly, it was due to limit of the list size (max 5). For example, in case of 'prufe' and 'proof', distance is 2. The suggestions were:
+```
+  prude (distance: 1)
+  prune (distance: 1)
+  prudes (distance: 2)
+  pruh (distance: 2)
+  pruned (distance: 2)
+```
+
+The test was run using a copy of my program. I did not include the text files or the Python script used to run the spell checker with these word lists in the project repository. However, I can provide them or add them to a separate directory in the repository later.
