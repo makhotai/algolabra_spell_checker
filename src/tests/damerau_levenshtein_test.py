@@ -45,6 +45,11 @@ class TestDamerauLevenshtein(unittest.TestCase):
         n = max(len(word1), len(word2))
         self.assertEqual(distance_full(word1, word2), n)
 
+    def test_empty_strings(self):
+        self.assertEqual(distance_full("", ""), 0)
+        self.assertEqual(distance_full("", "abc"), 3)
+        self.assertEqual(distance_full("abc", ""), 3)
+
     @given(val=st.text(alphabet= st.characters(codec="utf-8"),
                        min_size=2, max_size=70))
     @settings(max_examples=500)

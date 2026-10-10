@@ -41,6 +41,21 @@ class TestSpellChecker(unittest.TestCase):
         self.assertEqual(self.voc.same_prefix("kissa", "koira"), 1)
         self.assertEqual(self.voc.same_prefix("kirja", "kirje"), 4)
 
+    def test_distance_over_prefix(self):
+        checker = SpellChecker()
+        checker.add("abcxy")
+        checker.add("xbcde")
+
+        suggestions = checker.suggest_similar_full("abcde")
+        self.assertEqual(suggestions, [("xbcde", 1), ("abcxy", 2)])
+
+        words = ["antava", "ostaa", "stara", "ystävä"]
+        for word in words:
+            checker.add(word)
+
+        suggestions = checker.suggest_similar_full("ystava")
+        self.assertEqual(suggestions, [("ystävä", 2), ("antava", 2), ("ostaa", 2), ("stara", 2)])
+
     def test_exact_match_is_suggested_with_distance_zero(self):
         suggestions = self.voc.suggest_similar("kissa")
         suggestions_full = self.voc.suggest_similar_full("kissa")
