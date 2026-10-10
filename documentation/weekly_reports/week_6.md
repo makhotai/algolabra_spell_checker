@@ -24,7 +24,7 @@ So I guess that this change to make the spelling suggestions more useful in most
 
 Additionally, I modified the UI code so that the program asks the user which word list to load.
 
-I also ran the comparison test that I mentioned in my week 5 report. I described test results in `testing.md` in [Empirical testing section](./documentation/testing.md#empirical-testing)
+I also ran the comparison test that I mentioned in my week 5 report. I described test results in `testing.md` in [Empirical testing section](../testing.md#empirical-testing)
 
 I also added a couple of unit tests for sorting spelling suggestions (based on distance and then words' beginning).
 
