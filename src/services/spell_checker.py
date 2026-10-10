@@ -92,6 +92,7 @@ class SpellChecker:
         return sug
 
     def same_prefix(self, word1: str, word2: str):
+        """counts the number of similar symbols in the beginning of two strings"""
         count = 0
         m = len(word1)
         n = len(word2)
