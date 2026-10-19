@@ -59,9 +59,9 @@ class SpellChecker:
                 results.append((pair, res, prefix_length))
 
         results.sort(key=lambda pair: pair[1])
-        
+
         results.sort(key=lambda pair: (pair[1], -pair[2], pair[0]))
-        
+
         results = results[:top_k]
         sug = []
         for pair in results:
