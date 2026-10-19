@@ -1,7 +1,16 @@
 # User guide
+Clone a repository to your computer
+
+Install Poetry dependencies using command:
+```
+poetry install
+```
 
 ## Running the program
-To run the program start the `app.py` file.
+To run the program:
+```
+poetry run invoke start
+```
 
 First, the program asks you to choose the dictionary to use. There are two options: `src/data/small_wordlist.txt` and `src/data/wordlist.txt`. Honestly, for the first use I would recommend to use the smaller, since it is easier to follow the logic and functions of the program.
 

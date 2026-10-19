@@ -9,4 +9,31 @@ This is implementation of terminal based spell-checker using Damerau-Levenshtein
 
 ## Running the program
 
-To run the program start the `app.py` file.
+
+Install Poetry dependencies using command:
+```
+poetry install
+```
+
+## Running the program
+
+To run the program:
+```
+poetry run invoke start
+```
+## Running tests
+
+To run unit tests:
+```
+poetry run invoke test
+```
+
+To compile coverage report:
+```
+poetry run invoke coverage
+```
+
+To run Pylint tests:
+```
+poetry run invoke pylint
+```

@@ -60,17 +60,17 @@ I also tested the file functionality with a small test word list to check if voc
 
 ### Run unit tests
 
-You can run unit tests by using command `poetry run pytest src` 
-
-or just `pytest src` if poetry virtual environment is already activated
+You can run unit tests by using command:
+```
+poetry run invoke test
+```
 
 ### Code coverage
 
 If you want to check the coverage of code and receive visual report you can run:
-
-`poetry run coverage run --branch -m pytest src; poetry run coverage html`
-
-or `coverage run --branch -m pytest src; coverage html`
+```
+poetry run invoke coverage
+```
 
 ## Empirical testing
 
