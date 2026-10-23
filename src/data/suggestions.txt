@@ -1,0 +1,1657 @@
+suggestions for 'absense':
+absence (distance: 1)
+absences (distance: 2)
+absent (distance: 2)
+absented (distance: 2)
+absentee (distance: 2)
+
+suggestions for 'absentse':
+absents (distance: 1)
+absentee (distance: 1)
+absent (distance: 2)
+absented (distance: 2)
+absentees (distance: 2)
+
+suggestions for 'abcense':
+abcess (distance: 2)
+abesse (distance: 2)
+abience (distance: 2)
+ablesse (distance: 2)
+absence (distance: 2)
+
+suggestions for 'absance':
+absence (distance: 1)
+absconce (distance: 2)
+absences (distance: 2)
+abaisance (distance: 2)
+abeyance (distance: 2)
+
+suggestions for 'acceptible':
+acceptable (distance: 1)
+acceptive (distance: 2)
+acceptably (distance: 2)
+accendible (distance: 2)
+accessible (distance: 2)
+
+suggestions for 'accomodate':
+accomodate (distance: 0)
+accommodate (distance: 1)
+accommodated (distance: 2)
+accommodates (distance: 2)
+
+suggestions for 'acommodate':
+accommodate (distance: 1)
+commodate (distance: 1)
+accommodated (distance: 2)
+accommodates (distance: 2)
+accomodate (distance: 2)
+
+suggestions for 'acheive':
+achieve (distance: 1)
+achene (distance: 2)
+achete (distance: 2)
+achieved (distance: 2)
+achiever (distance: 2)
+
+suggestions for 'acknowlege':
+acknowledge (distance: 1)
+acknowledged (distance: 2)
+acknowledger (distance: 2)
+acknowledges (distance: 2)
+
+suggestions for 'aknowledge':
+acknowledge (distance: 1)
+knowledge (distance: 1)
+acknowledged (distance: 2)
+acknowledger (distance: 2)
+acknowledges (distance: 2)
+
+suggestions for 'acquaintence':
+acquaintance (distance: 1)
+acquaintances (distance: 2)
+acquaintancy (distance: 2)
+
+suggestions for 'aquaintance':
+acquaintance (distance: 1)
+quaintance (distance: 1)
+acquaintances (distance: 2)
+acquaintancy (distance: 2)
+inquaintance (distance: 2)
+
+suggestions for 'aquire':
+acquire (distance: 1)
+Squire (distance: 1)
+quire (distance: 1)
+aquifer (distance: 2)
+aquiver (distance: 2)
+
+suggestions for 'adquire':
+acquire (distance: 1)
+adjure (distance: 2)
+admire (distance: 2)
+adure (distance: 2)
+acquired (distance: 2)
+
+suggestions for 'aquit':
+acquit (distance: 1)
+quit (distance: 1)
+squit (distance: 1)
+aqua (distance: 2)
+aquae (distance: 2)
+
+suggestions for 'acrage':
+acraze (distance: 1)
+acreage (distance: 1)
+achage (distance: 1)
+aerage (distance: 1)
+arage (distance: 1)
+
+suggestions for 'acerage':
+acerate (distance: 1)
+acierage (distance: 1)
+acreage (distance: 1)
+aerage (distance: 1)
+average (distance: 1)
+
+suggestions for 'adress':
+address (distance: 1)
+adless (distance: 1)
+adpress (distance: 1)
+dress (distance: 1)
+adread (distance: 2)
+
+suggestions for 'adultary':
+adultery (distance: 1)
+adulter (distance: 2)
+adultly (distance: 2)
+adular (distance: 2)
+adulatory (distance: 2)
+
+suggestions for 'adviseable':
+advisable (distance: 1)
+advisably (distance: 2)
+admissable (distance: 2)
+
+suggestions for 'advizable':
+advisable (distance: 1)
+advisably (distance: 2)
+admirable (distance: 2)
+
+suggestions for 'agression':
+aggression (distance: 1)
+egression (distance: 1)
+agrestian (distance: 2)
+agreation (distance: 2)
+aggressin (distance: 2)
+
+suggestions for 'agressive':
+aggressive (distance: 1)
+egressive (distance: 1)
+abessive (distance: 2)
+accessive (distance: 2)
+adessive (distance: 2)
+
+suggestions for 'allegaince':
+allegiance (distance: 1)
+allegiances (distance: 2)
+allegiancy (distance: 2)
+
+suggestions for 'allegience':
+allegiance (distance: 1)
+allegiances (distance: 2)
+allegiancy (distance: 2)
+
+suggestions for 'alegiance':
+allegiance (distance: 1)
+allegiances (distance: 2)
+allegiancy (distance: 2)
+elegance (distance: 2)
+
+suggestions for 'allmost':
+almost (distance: 1)
+allmouth (distance: 2)
+all-out (distance: 2)
+allose (distance: 2)
+allot (distance: 2)
+
+suggestions for 'amatuer':
+amateur (distance: 1)
+amate (distance: 2)
+amated (distance: 2)
+amateurs (distance: 2)
+amasser (distance: 2)
+
+suggestions for 'amature':
+abature (distance: 1)
+armature (distance: 1)
+mature (distance: 1)
+amate (distance: 2)
+amateur (distance: 2)
+
+suggestions for 'anually':
+anally (distance: 1)
+annually (distance: 1)
+manually (distance: 1)
+animally (distance: 2)
+annaly (distance: 2)
+
+suggestions for 'annualy':
+annual (distance: 1)
+annually (distance: 1)
+annuals (distance: 1)
+annuary (distance: 1)
+annaly (distance: 1)
+
+suggestions for 'apparant':
+apparat (distance: 1)
+apparent (distance: 1)
+apparance (distance: 2)
+apparail (distance: 2)
+apparats (distance: 2)
+
+suggestions for 'aparent':
+apparent (distance: 1)
+aparejo (distance: 2)
+apart (distance: 2)
+apartment (distance: 2)
+aperient (distance: 2)
+
+suggestions for 'apparrent':
+apparent (distance: 1)
+apparens (distance: 2)
+appalment (distance: 2)
+
+suggestions for 'aparrent':
+apartment (distance: 2)
+aperient (distance: 2)
+apparent (distance: 2)
+arrent (distance: 2)
+awarrant (distance: 2)
+
+suggestions for 'artic':
+artic (distance: 0)
+areic (distance: 1)
+antic (distance: 1)
+aortic (distance: 1)
+atic (distance: 1)
+
+suggestions for 'arguement':
+argument (distance: 1)
+argumenta (distance: 2)
+arguments (distance: 2)
+arnement (distance: 2)
+arousement (distance: 2)
+
+suggestions for 'athiest':
+athirst (distance: 1)
+atheist (distance: 1)
+achiest (distance: 1)
+ashiest (distance: 1)
+lathiest (distance: 1)
+
+suggestions for 'athist':
+athirst (distance: 1)
+atheist (distance: 1)
+atwist (distance: 1)
+athing (distance: 2)
+athink (distance: 2)
+
+suggestions for 'awfull':
+awfully (distance: 1)
+awful (distance: 1)
+awfuller (distance: 2)
+awfu (distance: 2)
+ahull (distance: 2)
+
+suggestions for 'aweful':
+awful (distance: 1)
+waeful (distance: 1)
+aweel (distance: 2)
+awfu (distance: 2)
+aidful (distance: 2)
+
+suggestions for 'becuase':
+becurse (distance: 1)
+because (distance: 1)
+bechase (distance: 1)
+becursed (distance: 2)
+becurses (distance: 2)
+
+suggestions for 'becasue':
+becasse (distance: 1)
+because (distance: 1)
+became (distance: 2)
+becarve (distance: 2)
+bechase (distance: 2)
+
+suggestions for 'beatiful':
+beautiful (distance: 1)
+beatific (distance: 2)
+beatify (distance: 2)
+beakful (distance: 2)
+beamful (distance: 2)
+
+suggestions for 'becomeing':
+becoming (distance: 1)
+becomings (distance: 2)
+recombing (distance: 2)
+
+suggestions for 'begining':
+beginning (distance: 1)
+beginnings (distance: 2)
+begirding (distance: 2)
+begazing (distance: 2)
+begging (distance: 2)
+
+suggestions for 'beleive':
+beleave (distance: 1)
+beleve (distance: 1)
+believe (distance: 1)
+belive (distance: 1)
+belee (distance: 2)
+
+suggestions for 'bellweather':
+bellweather (distance: 0)
+bellwether (distance: 1)
+bellwethers (distance: 2)
+bell-wether (distance: 2)
+
+suggestions for 'benifit':
+benefit (distance: 1)
+benight (distance: 2)
+benefic (distance: 2)
+benefits (distance: 2)
+befit (distance: 2)
+
+suggestions for 'bouyant':
+buoyant (distance: 1)
+boucan (distance: 2)
+bouffant (distance: 2)
+boltant (distance: 2)
+bowyang (distance: 2)
+
+suggestions for 'buisness':
+business (distance: 1)
+bluisness (distance: 1)
+bushiness (distance: 2)
+busyness (distance: 2)
+bassness (distance: 2)
+
+suggestions for 'calender':
+calenders (distance: 1)
+calendar (distance: 1)
+calander (distance: 1)
+Calender (distance: 1)
+calendered (distance: 2)
+
+suggestions for 'camoflage':
+camouflage (distance: 1)
+camouflaged (distance: 2)
+camouflager (distance: 2)
+camouflages (distance: 2)
+
+suggestions for 'camoflague':
+camouflage (distance: 2)
+
+suggestions for 'catagory':
+category (distance: 1)
+matagory (distance: 1)
+catatony (distance: 2)
+cantatory (distance: 2)
+citatory (distance: 2)
+
+suggestions for 'cauhgt':
+caught (distance: 1)
+cachet (distance: 2)
+cachot (distance: 2)
+cahot (distance: 2)
+claught (distance: 2)
+
+suggestions for 'caugt':
+caught (distance: 1)
+cauch (distance: 2)
+cauda (distance: 2)
+cauf (distance: 2)
+cauk (distance: 2)
+
+suggestions for 'cemetary':
+cemetary (distance: 0)
+cemetery (distance: 1)
+cometary (distance: 1)
+
+suggestions for 'cematery':
+cemetery (distance: 1)
+cemetary (distance: 2)
+cenatory (distance: 2)
+catery (distance: 2)
+cheatery (distance: 2)
+
+suggestions for 'changable':
+changable (distance: 0)
+changeable (distance: 1)
+chantable (distance: 1)
+chargable (distance: 1)
+hangable (distance: 1)
+
+suggestions for 'cheif':
+cheir (distance: 1)
+chef (distance: 1)
+chetif (distance: 1)
+chief (distance: 1)
+cheil- (distance: 2)
+
+suggestions for 'collaegue':
+colleague (distance: 1)
+collage (distance: 2)
+colleagued (distance: 2)
+colleagues (distance: 2)
+college (distance: 2)
+
+suggestions for 'collegue':
+college (distance: 1)
+colleague (distance: 1)
+collogue (distance: 1)
+colleger (distance: 2)
+colleges (distance: 2)
+
+suggestions for 'colum':
+column (distance: 1)
+colyum (distance: 1)
+cholum (distance: 1)
+clum (distance: 1)
+Colum (distance: 1)
+
+suggestions for 'comming':
+commaing (distance: 1)
+combing (distance: 1)
+coming (distance: 1)
+comping (distance: 1)
+coaming (distance: 1)
+
+suggestions for 'commited':
+committed (distance: 1)
+commixed (distance: 1)
+commuted (distance: 1)
+commit (distance: 2)
+commits (distance: 2)
+
+suggestions for 'comitted':
+committed (distance: 1)
+omitted (distance: 1)
+comite (distance: 2)
+comites (distance: 2)
+comities (distance: 2)
+
+suggestions for 'comparsion':
+comparison (distance: 1)
+compassion (distance: 1)
+compursion (distance: 1)
+comparisons (distance: 2)
+comparition (distance: 2)
+
+suggestions for 'conceed':
+concede (distance: 1)
+conceded (distance: 1)
+conched (distance: 1)
+congeed (distance: 1)
+conceal (distance: 2)
+
+suggestions for 'congradulate':
+congratulate (distance: 1)
+congratulated (distance: 2)
+congratulates (distance: 2)
+nongraduate (distance: 2)
+
+suggestions for 'consciencious':
+conscientious (distance: 1)
+
+suggestions for 'concious':
+conscious (distance: 1)
+concio (distance: 2)
+concion (distance: 2)
+concinnous (distance: 2)
+concours (distance: 2)
+
+suggestions for 'consious':
+conscious (distance: 1)
+consigns (distance: 2)
+consists (distance: 2)
+consols (distance: 2)
+consonous (distance: 2)
+
+suggestions for 'concensus':
+concentus (distance: 1)
+consensus (distance: 1)
+noncensus (distance: 1)
+concents (distance: 2)
+conceptus (distance: 2)
+
+suggestions for 'contraversy':
+controversy (distance: 1)
+contrivers (distance: 2)
+controverse (distance: 2)
+
+suggestions for 'cooly':
+cooly (distance: 0)
+cool (distance: 1)
+coolly (distance: 1)
+cools (distance: 1)
+cooey (distance: 1)
+
+suggestions for 'decieve':
+deceive (distance: 1)
+deciare (distance: 2)
+decide (distance: 2)
+decile (distance: 2)
+decime (distance: 2)
+
+suggestions for 'definate':
+definite (distance: 1)
+definable (distance: 2)
+define (distance: 2)
+defiant (distance: 2)
+defilade (distance: 2)
+
+suggestions for 'definit':
+definite (distance: 1)
+deficit (distance: 1)
+definitor (distance: 2)
+defining (distance: 2)
+definish (distance: 2)
+
+suggestions for 'definitly':
+definitely (distance: 1)
+definite (distance: 2)
+definitor (distance: 2)
+definably (distance: 2)
+definedly (distance: 2)
+
+suggestions for 'definately':
+definitely (distance: 1)
+definably (distance: 2)
+defiantly (distance: 2)
+delicately (distance: 2)
+derivately (distance: 2)
+
+suggestions for 'definatly':
+definably (distance: 1)
+defiantly (distance: 1)
+definable (distance: 2)
+definedly (distance: 2)
+definitely (distance: 2)
+
+suggestions for 'defiantly':
+defiantly (distance: 0)
+defiant (distance: 2)
+definably (distance: 2)
+reliantly (distance: 2)
+undefiantly (distance: 2)
+
+suggestions for 'desparate':
+desperate (distance: 1)
+disparate (distance: 1)
+desparple (distance: 2)
+despumate (distance: 2)
+desecrate (distance: 2)
+
+suggestions for 'diffrence':
+difference (distance: 1)
+differenced (distance: 2)
+differences (distance: 2)
+differency (distance: 2)
+diffidence (distance: 2)
+
+suggestions for 'dilema':
+dilemma (distance: 1)
+dilemmas (distance: 2)
+diceman (distance: 2)
+diem (distance: 2)
+diploma (distance: 2)
+
+suggestions for 'dissapoint':
+disanoint (distance: 2)
+disappoint (distance: 2)
+dispoint (distance: 2)
+
+suggestions for 'disasterous':
+disastrous (distance: 1)
+disaster's (distance: 2)
+disasters (distance: 2)
+
+suggestions for 'drunkeness':
+drunkeness (distance: 0)
+drunkenness (distance: 1)
+
+suggestions for 'dumbell':
+dumbbell (distance: 1)
+dumbed (distance: 2)
+dumber (distance: 2)
+dumbest (distance: 2)
+dumb-bell (distance: 2)
+
+suggestions for 'embarass':
+embarrass (distance: 1)
+embargos (distance: 2)
+embarks (distance: 2)
+embarras (distance: 2)
+embars (distance: 2)
+
+suggestions for 'equiptment':
+equipment (distance: 1)
+equipments (distance: 2)
+equipotent (distance: 2)
+
+suggestions for 'excede':
+exceed (distance: 1)
+excide (distance: 1)
+exede (distance: 1)
+expede (distance: 1)
+excedent (distance: 2)
+
+suggestions for 'exilerate':
+exfiltrate (distance: 2)
+exhilarate (distance: 2)
+exonerate (distance: 2)
+explorate (distance: 2)
+exuberate (distance: 2)
+
+suggestions for 'existance':
+existence (distance: 1)
+exitance (distance: 1)
+existant (distance: 2)
+existences (distance: 2)
+extance (distance: 2)
+
+suggestions for 'experiance':
+experience (distance: 1)
+experienced (distance: 2)
+experiencer (distance: 2)
+experiences (distance: 2)
+expectance (distance: 2)
+
+suggestions for 'extreem':
+extreme (distance: 1)
+extreat (distance: 2)
+extrema (distance: 2)
+extremer (distance: 2)
+extremes (distance: 2)
+
+suggestions for 'facinating':
+fascinating (distance: 1)
+fainting (distance: 2)
+fatigating (distance: 2)
+aminating (distance: 2)
+laminating (distance: 2)
+
+suggestions for 'firey':
+fire (distance: 1)
+fire- (distance: 1)
+fired (distance: 1)
+firer (distance: 1)
+fires (distance: 1)
+
+suggestions for 'flourescent':
+flourescent (distance: 0)
+florescent (distance: 1)
+fluorescent (distance: 1)
+forescent (distance: 2)
+
+suggestions for 'foriegn':
+foreign (distance: 1)
+forego (distance: 2)
+foreigns (distance: 2)
+foresign (distance: 2)
+forseen (distance: 2)
+
+suggestions for 'fourty':
+fourth (distance: 1)
+fouty (distance: 1)
+forty (distance: 1)
+courty (distance: 1)
+fourthly (distance: 2)
+
+suggestions for 'freind':
+freend (distance: 1)
+freijo (distance: 2)
+freir (distance: 2)
+freit (distance: 2)
+freith (distance: 2)
+
+suggestions for 'fullfil':
+fullfil (distance: 0)
+fulfil (distance: 1)
+fulfill (distance: 2)
+fulfils (distance: 2)
+fulful (distance: 2)
+
+suggestions for 'guage':
+gudge (distance: 1)
+guige (distance: 1)
+gunge (distance: 1)
+gurge (distance: 1)
+gauge (distance: 1)
+
+suggestions for 'gratefull':
+gratefully (distance: 1)
+grateful (distance: 1)
+gratefuller (distance: 2)
+graceful (distance: 2)
+gracefully (distance: 2)
+
+suggestions for 'greatful':
+grateful (distance: 2)
+groanful (distance: 2)
+breastful (distance: 2)
+breathful (distance: 2)
+dreadful (distance: 2)
+
+suggestions for 'garantee':
+grantee (distance: 1)
+guarantee (distance: 1)
+warantee (distance: 1)
+garance (distance: 2)
+galante (distance: 2)
+
+suggestions for 'garentee':
+garmented (distance: 2)
+garneter (distance: 2)
+grantee (distance: 2)
+guarantee (distance: 2)
+parented (distance: 2)
+
+suggestions for 'garanty':
+guaranty (distance: 1)
+garance (distance: 2)
+gardant (distance: 2)
+garganey (distance: 2)
+gargety (distance: 2)
+
+suggestions for 'guidence':
+guidance (distance: 1)
+guidances (distance: 2)
+audience (distance: 2)
+evidence (distance: 2)
+idence (distance: 2)
+
+suggestions for 'harrass':
+harass (distance: 1)
+tarrass (distance: 1)
+harrage (distance: 2)
+harries (distance: 2)
+harrows (distance: 2)
+
+suggestions for 'heighth':
+heighth (distance: 0)
+heighths (distance: 1)
+height (distance: 1)
+heights (distance: 1)
+highth (distance: 1)
+
+suggestions for 'heigth':
+heigh (distance: 1)
+height (distance: 1)
+heighth (distance: 1)
+heighths (distance: 2)
+heights (distance: 2)
+
+suggestions for 'heirarchy':
+hierarchy (distance: 1)
+heptarchy (distance: 2)
+heroarchy (distance: 2)
+hexarchy (distance: 2)
+hierarch (distance: 2)
+
+suggestions for 'humerous':
+humerus (distance: 1)
+humorous (distance: 1)
+numerous (distance: 1)
+humero- (distance: 2)
+humerals (distance: 2)
+
+suggestions for 'hygene':
+hygeen (distance: 1)
+hygiene (distance: 1)
+hygienes (distance: 2)
+hygrine (distance: 2)
+hyaena (distance: 2)
+
+suggestions for 'hygine':
+hygiene (distance: 1)
+hygrine (distance: 1)
+hygienes (distance: 2)
+hygeen (distance: 2)
+hygrin (distance: 2)
+
+suggestions for 'hiygeine':
+hygiene (distance: 2)
+hygrine (distance: 2)
+
+suggestions for 'higeine':
+highline (distance: 2)
+hieing (distance: 2)
+himene (distance: 2)
+hipline (distance: 2)
+hircine (distance: 2)
+
+suggestions for 'hygeine':
+hygiene (distance: 1)
+hygrine (distance: 1)
+hygeist (distance: 2)
+hygeen (distance: 2)
+hygienes (distance: 2)
+
+suggestions for 'hipocrit':
+hypocrite (distance: 2)
+hyporit (distance: 2)
+
+suggestions for 'ignorence':
+ignorance (distance: 1)
+ignorances (distance: 2)
+innocence (distance: 2)
+
+suggestions for 'immitate':
+immutate (distance: 1)
+imitate (distance: 1)
+immitted (distance: 2)
+immigrate (distance: 2)
+imminute (distance: 2)
+
+suggestions for 'imediately':
+immediately (distance: 1)
+mediately (distance: 1)
+immediatly (distance: 2)
+
+suggestions for 'indite':
+indite (distance: 0)
+indited (distance: 1)
+inditer (distance: 1)
+indites (distance: 1)
+indice (distance: 1)
+
+suggestions for 'independant':
+independents (distance: 2)
+independing (distance: 2)
+Independent (distance: 2)
+dependant (distance: 2)
+undefendant (distance: 2)
+
+suggestions for 'indispensible':
+indispensible (distance: 0)
+indispensable (distance: 1)
+indispensables (distance: 2)
+indispensably (distance: 2)
+indimensible (distance: 2)
+
+suggestions for 'innoculate':
+innoculate (distance: 0)
+innoculated (distance: 1)
+inoculate (distance: 1)
+inoculated (distance: 2)
+inoculates (distance: 2)
+
+suggestions for 'inteligence':
+intelligence (distance: 1)
+intelligenced (distance: 2)
+intelligencer (distance: 2)
+intelligences (distance: 2)
+intelligency (distance: 2)
+
+suggestions for 'intelligance':
+intelligence (distance: 1)
+intelligenced (distance: 2)
+intelligencer (distance: 2)
+intelligences (distance: 2)
+intelligency (distance: 2)
+
+suggestions for 'jewelery':
+jeweler (distance: 1)
+jewelers (distance: 1)
+jewellery (distance: 1)
+jewelry (distance: 1)
+jeweled (distance: 2)
+
+suggestions for 'judgement':
+judgement (distance: 0)
+judgements (distance: 1)
+judgemental (distance: 2)
+judgments (distance: 2)
+jugglement (distance: 2)
+
+suggestions for 'kernal':
+kernel (distance: 1)
+Bernal (distance: 1)
+Vernal (distance: 1)
+ternal (distance: 1)
+kerne (distance: 2)
+
+suggestions for 'liesure':
+leisure (distance: 1)
+lierre (distance: 2)
+lieue (distance: 2)
+licensure (distance: 2)
+ligure (distance: 2)
+
+suggestions for 'liason':
+liason (distance: 0)
+liaison (distance: 1)
+Eliason (distance: 1)
+liasing (distance: 2)
+liaisons (distance: 2)
+
+suggestions for 'libary':
+libard (distance: 1)
+library (distance: 1)
+lizary (distance: 1)
+libant (distance: 2)
+libate (distance: 2)
+
+suggestions for 'liberry':
+libers (distance: 2)
+liberum (distance: 2)
+library (distance: 2)
+lierre (distance: 2)
+limberly (distance: 2)
+
+suggestions for 'lisence':
+lisente (distance: 1)
+licence (distance: 1)
+lisere (distance: 2)
+licenced (distance: 2)
+licencee (distance: 2)
+
+suggestions for 'lightening':
+lightening (distance: 0)
+lightering (distance: 1)
+lightning (distance: 1)
+sightening (distance: 1)
+tightening (distance: 1)
+
+suggestions for 'maintainance':
+maintainance (distance: 0)
+maintainances (distance: 1)
+maintainable (distance: 2)
+maintenance (distance: 2)
+
+suggestions for 'maintnance':
+maintenance (distance: 1)
+maintainance (distance: 2)
+maintenances (distance: 2)
+
+suggestions for 'marshmellow':
+marshmallow (distance: 1)
+marshmallows (distance: 2)
+marshmallowy (distance: 2)
+marsh-mallow (distance: 2)
+
+suggestions for 'medeval':
+medevac (distance: 1)
+medevacs (distance: 2)
+medal (distance: 2)
+mediaeval (distance: 2)
+medial (distance: 2)
+
+suggestions for 'medevil':
+bedevil (distance: 1)
+medevac (distance: 2)
+bedevils (distance: 2)
+endevil (distance: 2)
+undevil (distance: 2)
+
+suggestions for 'mideval':
+mineral (distance: 2)
+minerval (distance: 2)
+misdeal (distance: 2)
+medevac (distance: 2)
+deval (distance: 2)
+
+suggestions for 'momento':
+momento (distance: 0)
+momentos (distance: 1)
+moment (distance: 1)
+momenta (distance: 1)
+moments (distance: 1)
+
+suggestions for 'millenium':
+millenium (distance: 0)
+millennium (distance: 1)
+millenia (distance: 2)
+millenist (distance: 2)
+millenniums (distance: 2)
+
+suggestions for 'milennium':
+millennium (distance: 1)
+millenium (distance: 2)
+millenniums (distance: 2)
+biennium (distance: 2)
+silentium (distance: 2)
+
+suggestions for 'miniture':
+miniature (distance: 1)
+miniatured (distance: 2)
+miniatures (distance: 2)
+misture (distance: 2)
+mixture (distance: 2)
+
+suggestions for 'miniscule':
+miniscule (distance: 0)
+minuscule (distance: 1)
+minuscules (distance: 2)
+
+suggestions for 'mischievious':
+mischievous (distance: 1)
+
+suggestions for 'mischevous':
+mischievous (distance: 1)
+
+suggestions for 'mischevious':
+mischievous (distance: 2)
+
+suggestions for 'mispell':
+misspell (distance: 1)
+mistell (distance: 1)
+dispell (distance: 1)
+mispen (distance: 2)
+mispens (distance: 2)
+
+suggestions for 'misspel':
+misspell (distance: 1)
+misspelt (distance: 1)
+missel (distance: 1)
+misspells (distance: 2)
+misspeak (distance: 2)
+
+suggestions for 'neccessary':
+necessary (distance: 1)
+necessar (distance: 2)
+accessary (distance: 2)
+
+suggestions for 'necessery':
+necessary (distance: 1)
+necesse (distance: 2)
+necessar (distance: 2)
+necessity (distance: 2)
+recesser (distance: 2)
+
+suggestions for 'neice':
+niece (distance: 1)
+beice (distance: 1)
+deice (distance: 1)
+reice (distance: 1)
+neif (distance: 2)
+
+suggestions for 'nieghbor':
+neighbor (distance: 1)
+neighbors (distance: 2)
+neighbour (distance: 2)
+
+suggestions for 'noticable':
+noticable (distance: 0)
+noticeable (distance: 1)
+noticeably (distance: 2)
+notifiable (distance: 2)
+notionable (distance: 2)
+
+suggestions for 'occassion':
+occasion (distance: 1)
+occasions (distance: 2)
+occision (distance: 2)
+occlusion (distance: 2)
+accession (distance: 2)
+
+suggestions for 'occasionaly':
+occasional (distance: 1)
+occasionally (distance: 1)
+occasionary (distance: 1)
+occasionality (distance: 2)
+occasionable (distance: 2)
+
+suggestions for 'occassionally':
+occasionally (distance: 1)
+
+suggestions for 'occurrance':
+occurrence (distance: 1)
+occurrences (distance: 2)
+occurence (distance: 2)
+occupance (distance: 2)
+currance (distance: 2)
+
+suggestions for 'occurence':
+occurence (distance: 0)
+occurences (distance: 1)
+occurrence (distance: 1)
+occurrences (distance: 2)
+occupance (distance: 2)
+
+suggestions for 'occured':
+occurred (distance: 1)
+occur (distance: 2)
+occurs (distance: 2)
+occurse (distance: 2)
+occulted (distance: 2)
+
+suggestions for 'ommision':
+omission (distance: 2)
+occision (distance: 2)
+commission (distance: 2)
+commistion (distance: 2)
+immission (distance: 2)
+
+suggestions for 'omision':
+omission (distance: 1)
+omissions (distance: 2)
+omicron (distance: 2)
+omikron (distance: 2)
+occision (distance: 2)
+
+suggestions for 'orignal':
+orignal (distance: 0)
+original (distance: 1)
+origan (distance: 2)
+origans (distance: 2)
+originals (distance: 2)
+
+suggestions for 'outragous':
+outrageous (distance: 1)
+outrages (distance: 2)
+outregeous (distance: 2)
+
+suggestions for 'parliment':
+parlement (distance: 1)
+parliaments (distance: 2)
+parlamento (distance: 2)
+parament (distance: 2)
+parchment (distance: 2)
+
+suggestions for 'passtime':
+pastime (distance: 1)
+passim (distance: 2)
+passive (distance: 2)
+pastie (distance: 2)
+pastile (distance: 2)
+
+suggestions for 'pasttime':
+pastime (distance: 1)
+pastie (distance: 2)
+pastile (distance: 2)
+pastimer (distance: 2)
+pastimes (distance: 2)
+
+suggestions for 'pedagoge':
+pedagog (distance: 1)
+pedagogs (distance: 1)
+pedagogue (distance: 1)
+pedagogy (distance: 1)
+pedagogery (distance: 2)
+
+suggestions for 'percieve':
+perceive (distance: 1)
+perceived (distance: 2)
+perceiver (distance: 2)
+perceives (distance: 2)
+
+suggestions for 'perseverence':
+perseverance (distance: 1)
+perseverances (distance: 2)
+
+suggestions for 'personell':
+personed (distance: 2)
+personal (distance: 2)
+personally (distance: 2)
+personals (distance: 2)
+personnel (distance: 2)
+
+suggestions for 'personel':
+personed (distance: 1)
+personal (distance: 1)
+personnel (distance: 1)
+person (distance: 2)
+person's (distance: 2)
+
+suggestions for 'plagerize':
+plagiarize (distance: 2)
+pagesize (distance: 2)
+laterize (distance: 2)
+
+suggestions for 'playright':
+playwright (distance: 1)
+playwrights (distance: 2)
+laylight (distance: 2)
+
+suggestions for 'playwrite':
+playwriter (distance: 1)
+
+suggestions for 'posession':
+possession (distance: 1)
+cosession (distance: 1)
+possessio (distance: 2)
+possessions (distance: 2)
+presession (distance: 2)
+
+suggestions for 'possesion':
+possession (distance: 1)
+possessio (distance: 2)
+possessions (distance: 2)
+possessor (distance: 2)
+cosession (distance: 2)
+
+suggestions for 'potatos':
+potato (distance: 1)
+potatoes (distance: 1)
+potator (distance: 1)
+pottos (distance: 1)
+potatory (distance: 2)
+
+suggestions for 'preceed':
+precede (distance: 1)
+preceded (distance: 1)
+precreed (distance: 1)
+proceed (distance: 1)
+preceder (distance: 2)
+
+suggestions for 'presance':
+presence (distance: 1)
+plesance (distance: 1)
+tresance (distance: 1)
+presage (distance: 2)
+presale (distance: 2)
+
+suggestions for 'principal':
+principal (distance: 0)
+principals (distance: 1)
+principial (distance: 1)
+principally (distance: 2)
+principate (distance: 2)
+
+suggestions for 'privelege':
+privilege (distance: 1)
+priviledge (distance: 2)
+privileged (distance: 2)
+privileger (distance: 2)
+privileges (distance: 2)
+
+suggestions for 'priviledge':
+priviledge (distance: 0)
+privilege (distance: 1)
+privileged (distance: 2)
+privileger (distance: 2)
+privileges (distance: 2)
+
+suggestions for 'professer':
+professed (distance: 1)
+professes (distance: 1)
+professor (distance: 1)
+processer (distance: 1)
+profess (distance: 2)
+
+suggestions for 'promiss':
+promiss (distance: 0)
+promise (distance: 1)
+promises (distance: 1)
+premiss (distance: 1)
+promissor (distance: 2)
+
+suggestions for 'pronounciation':
+pronunciation (distance: 1)
+pronunciations (distance: 2)
+
+suggestions for 'prufe':
+prude (distance: 1)
+prune (distance: 1)
+prudes (distance: 2)
+pruh (distance: 2)
+pruned (distance: 2)
+
+suggestions for 'publically':
+publically (distance: 0)
+publicly (distance: 2)
+Biblically (distance: 2)
+cubically (distance: 2)
+rubrically (distance: 2)
+
+suggestions for 'quarentine':
+quarentene (distance: 1)
+quarantine (distance: 1)
+quarantined (distance: 2)
+quarantiner (distance: 2)
+quarantines (distance: 2)
+
+suggestions for 'que':
+quei (distance: 1)
+quem (distance: 1)
+ques (distance: 1)
+quet (distance: 1)
+quey (distance: 1)
+
+suggestions for 'questionaire':
+questionnaire (distance: 1)
+questionable (distance: 2)
+questionaries (distance: 2)
+questionary (distance: 2)
+questionnaires (distance: 2)
+
+suggestions for 'questionnair':
+questionnaire (distance: 1)
+questionnaires (distance: 2)
+questionniare (distance: 2)
+
+suggestions for 'readible':
+readable (distance: 1)
+rendible (distance: 1)
+readily (distance: 2)
+readably (distance: 2)
+reable (distance: 2)
+
+suggestions for 'realy':
+real (distance: 1)
+really (distance: 1)
+realm (distance: 1)
+reals (distance: 1)
+realty (distance: 1)
+
+suggestions for 'recieve':
+receive (distance: 1)
+relieve (distance: 1)
+recide (distance: 2)
+recidive (distance: 2)
+recipe (distance: 2)
+
+suggestions for 'reciept':
+receipt (distance: 1)
+recept (distance: 1)
+recip (distance: 2)
+recipe (distance: 2)
+recipes (distance: 2)
+
+suggestions for 'recomend':
+recommend (distance: 1)
+recombed (distance: 2)
+recommand (distance: 2)
+recommends (distance: 2)
+recoded (distance: 2)
+
+suggestions for 'reccommend':
+recommend (distance: 1)
+re-commend (distance: 1)
+recommand (distance: 2)
+recommends (distance: 2)
+precommend (distance: 2)
+
+suggestions for 'refered':
+refered (distance: 0)
+referee (distance: 1)
+refereed (distance: 1)
+referred (distance: 1)
+refeed (distance: 1)
+
+suggestions for 'referance':
+reference (distance: 1)
+referable (distance: 2)
+referenced (distance: 2)
+referencer (distance: 2)
+references (distance: 2)
+
+suggestions for 'refrence':
+refence (distance: 1)
+reference (distance: 1)
+refrenzy (distance: 2)
+refreeze (distance: 2)
+refresco (distance: 2)
+
+suggestions for 'relevent':
+relevent (distance: 0)
+relevant (distance: 1)
+releve (distance: 2)
+relevel (distance: 2)
+relever (distance: 2)
+
+suggestions for 'revelant':
+revelant (distance: 0)
+revenant (distance: 1)
+revolant (distance: 1)
+reveling (distance: 2)
+revellent (distance: 2)
+
+suggestions for 'religous':
+religious (distance: 1)
+relights (distance: 2)
+religions (distance: 2)
+resinous (distance: 2)
+revigour (distance: 2)
+
+suggestions for 'religius':
+religious (distance: 1)
+religieuse (distance: 2)
+religieux (distance: 2)
+religio (distance: 2)
+religio- (distance: 2)
+
+suggestions for 'repitition':
+repetition (distance: 1)
+repartition (distance: 2)
+repetitions (distance: 2)
+reposition (distance: 2)
+reptation (distance: 2)
+
+suggestions for 'restarant':
+restaurant (distance: 1)
+restart (distance: 2)
+restant (distance: 2)
+restaurants (distance: 2)
+restraint (distance: 2)
+
+suggestions for 'restaraunt':
+restaurant (distance: 2)
+restraint (distance: 2)
+
+suggestions for 'rythm':
+rhythm (distance: 1)
+rath (distance: 2)
+rathe (distance: 2)
+retem (distance: 2)
+rethe (distance: 2)
+
+suggestions for 'rythem':
+rathe (distance: 2)
+rathed (distance: 2)
+rehem (distance: 2)
+retem (distance: 2)
+rethe (distance: 2)
+
+suggestions for 'secratary':
+secretary (distance: 1)
+secretar (distance: 2)
+secretory (distance: 2)
+
+suggestions for 'secretery':
+secreter (distance: 1)
+secretary (distance: 1)
+secretory (distance: 1)
+secrete (distance: 2)
+secreted (distance: 2)
+
+suggestions for 'sieze':
+siege (distance: 1)
+sieve (distance: 1)
+size (distance: 1)
+seize (distance: 1)
+sie (distance: 2)
+
+suggestions for 'seperate':
+separate (distance: 1)
+severate (distance: 1)
+sperate (distance: 1)
+superate (distance: 1)
+separata (distance: 2)
+
+suggestions for 'sargent':
+sarment (distance: 1)
+surgent (distance: 1)
+Largent (distance: 1)
+Sargent (distance: 1)
+margent (distance: 1)
+
+suggestions for 'similer':
+simile (distance: 1)
+similes (distance: 1)
+similar (distance: 1)
+similor (distance: 1)
+simpler (distance: 1)
+
+suggestions for 'skilfull':
+skilfully (distance: 1)
+skilful (distance: 1)
+skillful (distance: 2)
+skillfully (distance: 2)
+skinful (distance: 2)
+
+suggestions for 'speach':
+speech (distance: 1)
+spetch (distance: 1)
+spoach (distance: 1)
+peach (distance: 1)
+speak (distance: 2)
+
+suggestions for 'succesful':
+succesful (distance: 0)
+successful (distance: 1)
+succorful (distance: 2)
+
+suggestions for 'successfull':
+successfully (distance: 1)
+successful (distance: 1)
+succesful (distance: 2)
+
+suggestions for 'sucessful':
+successful (distance: 1)
+succesful (distance: 2)
+stressful (distance: 2)
+
+suggestions for 'supercede':
+supercede (distance: 0)
+superceded (distance: 1)
+supercedes (distance: 1)
+supersede (distance: 1)
+supercube (distance: 2)
+
+suggestions for 'suprise':
+supprise (distance: 1)
+sunrise (distance: 1)
+surprise (distance: 1)
+uprise (distance: 1)
+supravise (distance: 2)
+
+suggestions for 'surprize':
+surprize (distance: 0)
+surprized (distance: 1)
+surprizes (distance: 1)
+surprise (distance: 1)
+surprizal (distance: 2)
+
+suggestions for 'tomatos':
+tomato (distance: 1)
+tomatoes (distance: 1)
+tomatoey (distance: 2)
+tomans (distance: 2)
+tom-toe (distance: 2)
+
+suggestions for 'tommorow':
+tommyrot (distance: 2)
+tomorrow (distance: 2)
+to-morrow (distance: 2)
+
+suggestions for 'tommorrow':
+tomorrow (distance: 1)
+to-morrow (distance: 1)
+tomorrows (distance: 2)
+
+suggestions for 'twelth':
+twelfth (distance: 1)
+swelth (distance: 1)
+twelfths (distance: 2)
+tweesh (distance: 2)
+tweet (distance: 2)
+
+suggestions for 'tyrany':
+tyranny (distance: 1)
+tyrant (distance: 1)
+tyrants (distance: 2)
+tyring (distance: 2)
+tympany (distance: 2)
+
+suggestions for 'underate':
+underate (distance: 0)
+underage (distance: 1)
+undereate (distance: 1)
+undermate (distance: 1)
+underrate (distance: 1)
+
+suggestions for 'untill':
+untill (distance: 0)
+until (distance: 1)
+untile (distance: 1)
+untilt (distance: 1)
+untall (distance: 1)
+
+suggestions for 'upholstry':
+upholstery (distance: 1)
+upholster (distance: 2)
+upholsters (distance: 2)
+
+suggestions for 'usible':
+usable (distance: 1)
+unible (distance: 1)
+utible (distance: 1)
+fusible (distance: 1)
+usine (distance: 2)
+
+suggestions for 'vaccuum':
+vacuum (distance: 1)
+vacuua (distance: 2)
+vacuuma (distance: 2)
+vacuums (distance: 2)
+vasculum (distance: 2)
+
+suggestions for 'vaccum':
+vacuum (distance: 1)
+accum (distance: 1)
+vacoua (distance: 2)
+vacouf (distance: 2)
+vacua (distance: 2)
+
+suggestions for 'vacume':
+vacuome (distance: 1)
+vacua (distance: 2)
+vacual (distance: 2)
+vacuate (distance: 2)
+vacuit (distance: 2)
+
+suggestions for 'vehical':
+vesical (distance: 1)
+vehicle (distance: 2)
+vehicula (distance: 2)
+veinal (distance: 2)
+venial (distance: 2)
+
+suggestions for 'visious':
+visions (distance: 1)
+viscous (distance: 1)
+vicious (distance: 1)
+vision (distance: 2)
+vision's (distance: 2)
+
+suggestions for 'wat':
+wath (distance: 1)
+wa' (distance: 1)
+wab (distance: 1)
+wad (distance: 1)
+wae (distance: 1)
+
+suggestions for 'wierd':
+wierd (distance: 0)
+wied (distance: 1)
+wield (distance: 1)
+wird (distance: 1)
+wired (distance: 1)
+
+suggestions for 'wellfare':
+welfare (distance: 1)
+fellfare (distance: 1)
+wellyard (distance: 2)
+welfares (distance: 2)
+weelfard (distance: 2)
+
+suggestions for 'welfair':
+Belfair (distance: 1)
+welfare (distance: 2)
+wet-air (distance: 2)
+Belair (distance: 2)
+reflair (distance: 2)
+
+suggestions for 'wilfull':
+wilfully (distance: 1)
+wilful (distance: 1)
+wileful (distance: 2)
+willful (distance: 2)
+willfully (distance: 2)
+
+suggestions for 'withold':
+withhold (distance: 1)
+witholden (distance: 2)
+without (distance: 2)
+withal (distance: 2)
+withed (distance: 2)
+
+suggestions for 'writting':
+writhing (distance: 1)
+writing (distance: 1)
+witting (distance: 1)
+fritting (distance: 1)
+gritting (distance: 1)
+
+suggestions for 'writeing':
+writhing (distance: 1)
+writing (distance: 1)
+write-in (distance: 2)
+writerling (distance: 2)
+wricking (distance: 2)
+
