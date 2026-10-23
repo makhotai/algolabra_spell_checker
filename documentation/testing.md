@@ -93,13 +93,13 @@ or for 'collegue' and 'colleague', distance is 1
 
 Words with an edit distance more than 2 were not suggested because the max allowed edit distance was 2, e.g. 'defiantly' and 'definitely', distance is 3. 
 
-Only in 8 cases (~3%) the intended correct spelling was not included in the list of suggestions. Mostly, it was due to limit of the list size (max 5). For example, in case of 'prufe' and 'proof', distance is 2. The suggestions were:
+Only in 8 cases (~3%) the intended correct spelling was not included in the list of suggestions. Mostly, it was due to limit of the list size (max 5). For example, in case of 'vacume' and 'vacuum', distance is 2. The suggestions were:
 ```
-  prude (distance: 1)
-  prune (distance: 1)
-  prudes (distance: 2)
-  pruh (distance: 2)
-  pruned (distance: 2)
+  vacuome (distance: 1)
+  vacua (distance: 2)
+  vacual (distance: 2)
+  vacuate (distance: 2)
+  vacuit (distance: 2)
 ```
 
 The test was run using a copy of my program. I did not include the text files or the Python script used to run the spell checker with these word lists in the project repository. However, I can provide them or add them to a separate directory in the repository later.

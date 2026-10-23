@@ -20,7 +20,7 @@ However, the main difference is that OSA restricts repeated editing of an alread
 OSA: "ca" -> "a" -> "ab" -> "abc" 3
 unrestricted DL: "ca" -> "ac" -> "abc" 2
 
-Program uses smaller vocabulary `small_wordlist.txt` by deafult. This file contains 28 words. A larger `wordlist.txt` is also included in the project and contains 100000+ words.
+The user can choose which dictionary version to use: the smaller version or the larger. The first option is `small_wordlist.txt` file, which contains 28 words. The second vocabulary is `wordlist.txt` file and has 100000+ words.
 
 The `UI` class is responsible for the terminal menu and user input. The user can print the vocabulary (1), add a new word (2), check a word (3) or quit the program (4).
 
